@@ -8,7 +8,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     url: jdbc:mysql://localhost:3306/jrtp701_ish_db?createDatabaseIfNotExist=true
-    password: Guruji123$ #changeme
+    password: root #changeme
   
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
