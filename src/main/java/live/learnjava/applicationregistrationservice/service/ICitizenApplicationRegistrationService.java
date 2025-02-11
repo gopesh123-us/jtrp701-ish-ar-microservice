@@ -1,7 +1,8 @@
 package live.learnjava.applicationregistrationservice.service;
 
 import live.learnjava.applicationregistrationservice.bindings.CitizenAppRegistrationInputs;
+import live.learnjava.applicationregistrationservice.exceptions.InvalidSSNException;
 
 public interface ICitizenApplicationRegistrationService {
-	public Integer registerCitizenApplication(CitizenAppRegistrationInputs entity);
+	public Integer registerCitizenApplication(CitizenAppRegistrationInputs entity) throws InvalidSSNException;
 }

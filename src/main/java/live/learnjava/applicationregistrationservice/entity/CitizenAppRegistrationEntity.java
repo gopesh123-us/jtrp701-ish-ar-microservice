@@ -18,7 +18,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "CITIZEN_APPLICATION")
+@Table(name = "JR701_CITIZEN_APPLICATION")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
